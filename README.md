@@ -21,10 +21,10 @@ Or install it yourself as:
 
 ## Usage
 
-This gem use environment variable. Google analytics tracker number should be exported
-in environment variables like in examples below, run in your console:
+This gem need for an google analytics track code that can be added in your
+settings.yml file as following:
 
-    `export OPENPROJECT_MULTITENANCY_GA__CODE=UA-xxxxxx-x`
+    `ga_track_code: UA-xxxxxx-x`
 
   replace UA-xxxxxx-x with your track number
 
