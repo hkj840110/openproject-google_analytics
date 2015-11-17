@@ -6,11 +6,11 @@ require 'openproject/google_analytics/version'
 Gem::Specification.new do |spec|
   spec.name          = "openproject-google_analytics"
   spec.version       = Openproject::GoogleAnalytics::VERSION
-  spec.authors       = ["Finn GmbH"]
-  spec.email         = ["info@finn.de"]
+  spec.authors       = ["OpenProject GmbH"]
+  spec.email         = ["info@openproject.com"]
   spec.summary       = %q{Insert google analytics script}
   spec.description   = %q{Insert google analytics script in all pages}
-  spec.homepage      = "https://www.openproject.org/projects/openproject-google_analytics"
+  spec.homepage      = "https://community.openproject.org/projects/openproject-google_analytics"
   spec.license       = "GPLv3"
 
   spec.files         = `git ls-files -z`.split("\x0")
